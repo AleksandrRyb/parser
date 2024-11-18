@@ -1,0 +1,24 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/parser.js",
+    "dev": "ts-node src/parser.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^23.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/puppeteer": "^5.4.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
